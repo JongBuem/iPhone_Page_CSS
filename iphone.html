@@ -3,7 +3,99 @@
   <head>
     <meta charset="utf-8">
     <title>아이폰</title>
-    <link rel="stylesheet" href="iphone.css">
+    <style>
+#mainmenu {
+ border: black 1px solid;
+ box-sizing: content-box;
+ pointer-events: auto;
+ text-align: center;
+ padding:5px;
+ margin:0px;
+ letter-spacing: normal;
+ background: black;
+ height: 30px;
+}
+.a {
+   text-decoration: none;
+    font-family: Helvetica;
+    font-size: 14px;
+    text-align: center;
+    color: LightGray;
+ }
+
+.a:hover {
+   color: white;
+ }
+
+ #quickmenu{
+   text-align:center;
+   text-align: center;
+   background: rgba(17,17,19);
+   padding-bottom:30px;
+ }
+ .class{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   letter-spacing: -0.5px;
+   font-size:11.5px;
+   font-weight: bold;
+
+ }
+ .a3{
+   grid-column: 4
+ }
+
+ .atag{
+   font-family: Helvetica;
+   color: rgba(232,232,234);
+   text-decoration:none;
+ }
+ .atag:hover {
+     color: rgba(101,143,185);
+   }
+   @media (max-width:800px) {
+     .a{
+       width: 0;
+       position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        clip-path: polygon(0 0, 0 0, 0 0);
+     }
+ #mainmenu {
+   text-align: center;
+   height: 37px;
+ }
+ .mainimg{
+   width:36px;
+   height:30px;
+
+ }
+}
+.ac {
+ text-align: center;
+ color: black;
+}
+
+.c {
+ text-align: center;
+ color: white;
+ line-height:0.8;
+}
+@media (max-width:900px) {
+ .sid{
+   width: 0;
+   position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: polygon(0 0, 0 0, 0 0);
+ }
+}
+
+</style>   
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-63QXRT2CLZ"></script>
     <script>
